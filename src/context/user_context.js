@@ -7,7 +7,7 @@ export const UserProvider = ({ children }) => {
     <UserContext.Provider value='user context'>{children}</UserContext.Provider>
   )
 }
-// make sure use
+// custom hook for user context
 export const useUserContext = () => {
-  return useContext(UserContext)
-}
+	return useContext(UserContext);
+};

@@ -23,7 +23,8 @@ export const CartProvider = ({ children }) => {
 		<CartContext.Provider value={{ ...state }}>{children}</CartContext.Provider>
 	);
 };
-// make sure use
+
+// custom hook for cart context
 export const useCartContext = () => {
 	return useContext(CartContext);
 };

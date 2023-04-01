@@ -72,7 +72,7 @@ export const ProductsProvider = ({ children }) => {
 	);
 };
 
-// make sure use
+// custom hook for products context
 export const useProductsContext = () => {
 	return useContext(ProductsContext);
 };

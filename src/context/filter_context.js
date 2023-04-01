@@ -95,7 +95,7 @@ export const FilterProvider = ({ children }) => {
 	);
 };
 
-// make sure use
+// custom hook for filter context
 export const useFilterContext = () => {
 	return useContext(FilterContext);
 };
